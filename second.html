@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker - Track your daily mood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Tracker</h1>
+
+        <p>Track your daily mood</p>
+
+        <div class="mood-selector">
+            <button class="mood-btn" data-mood="happy"><h6>Happy</h6>&#128522</button>
+
+            <button class="mood-btn" data-mood="sad"><h6>Sad</h6>&#128546</button>
+
+            <button class="mood-btn" data-mood="angry"><h6>angry</h6>&#128544</button>
+
+            <button class="mood-btn" data-mood="tired"><h6>Tired</h6>&#128564</button>
+
+            <button class="mood-btn" data-mood="excited"><h6>Excited</h6>&#128512</button>
+        </div>
+
+        <textarea id="note" placeholder="Add a note..."></textarea>
+
+        <button id="save-btn">Save</button>
+
+        <h2>Your mood today</h2>
+        <div id="today-mood"></div>
+        <div id="save-message" class="hidden"></div>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
